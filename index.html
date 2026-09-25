@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assist – Central Dispatch Hub</title>
+<meta name="description" content="See how Assist works as one central dispatch hub for your whole network of tow trucks and service partners.">
+<meta property="og:title" content="Assist – One hub. Your whole network.">
+<meta property="og:description" content="From QR scan to completed and invoiced mission – in one platform.">
+<meta property="og:image" content="assets/dispatch-hub-poster.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#071A2D; --brand:#1F6FA5; --brand-dark:#104F78; --accent:#20C8EE; --soft:#F1F8FC; --muted:#5B6B7A; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:"IBM Plex Sans",system-ui,sans-serif; background:var(--soft); color:var(--ink); }
+  header { max-width:1100px; margin:0 auto; padding:28px 20px; display:flex; align-items:center; justify-content:space-between; }
+  header img { height:36px; }
+  header a { color:var(--brand); font-weight:600; text-decoration:none; }
+  main { max-width:1100px; margin:0 auto; padding:0 20px 64px; }
+  h1 { font-size:clamp(32px,5vw,56px); line-height:1.05; letter-spacing:-1px; margin:16px 0 12px; }
+  h1 span { color:var(--brand); }
+  .lead { font-size:clamp(17px,2vw,21px); color:var(--muted); max-width:720px; margin:0 0 32px; line-height:1.5; }
+  video { width:100%; border-radius:16px; box-shadow:0 30px 80px rgba(7,26,45,.18); background:#000; display:block; }
+  .steps { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; margin:40px 0; padding:0; list-style:none; counter-reset:s; }
+  .steps li { background:#fff; border-radius:14px; padding:20px 22px; box-shadow:0 6px 20px rgba(7,26,45,.06); counter-increment:s; line-height:1.45; }
+  .steps li::before { content:"Step " counter(s); display:block; font-size:13px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--brand); margin-bottom:6px; }
+  .steps b { display:block; font-size:18px; margin-bottom:4px; }
+  .cta { display:inline-block; background:var(--brand); color:#fff; text-decoration:none; font-weight:600; font-size:18px; padding:16px 28px; border-radius:7px; }
+  .cta:hover { background:var(--brand-dark); }
+  footer { text-align:center; color:var(--muted); font-size:14px; padding:24px 20px 40px; }
+</style>
+</head>
+<body>
+<header>
+  <img src="assets/assist-logo.svg" alt="Assist">
+  <a href="https://www.assist-it.no/en">assist-it.no →</a>
+</header>
+<main>
+  <h1>One hub. <span>Your whole network.</span></h1>
+  <p class="lead">Assist as a central dispatch hub: customers send a request with their exact location, your call centre sees every partner on one map, and the mission runs from dispatch to invoice in the same platform.</p>
+
+  <video controls playsinline preload="metadata" poster="assets/dispatch-hub-poster.jpg">
+    <source src="videos/assist-dispatch-hub.mp4" type="video/mp4">
+    Your browser does not support video. <a href="videos/assist-dispatch-hub.mp4">Download the video</a>.
+  </video>
+
+  <ol class="steps">
+    <li><b>Scan &amp; share location</b>The customer scans a QR code and sends a request with exact GPS.</li>
+    <li><b>Instant alert</b>Your call centre is notified and accepts the request.</li>
+    <li><b>Every partner on one map</b>See the customer and all start points and partners in your network.</li>
+    <li><b>Dispatch in one click</b>Pick the closest start point and send the mission to the driver.</li>
+    <li><b>Live on the road</b>The driver accepts in the Assist app, and you follow the route live.</li>
+    <li><b>Done &amp; invoiced</b>Status, documentation and payment – all in the same mission.</li>
+  </ol>
+
+  <a class="cta" href="https://www.assist-it.no/en">Book a demo at assist-it.no</a>
+</main>
+<footer>© Assist IT AS · Stavanger, Norway</footer>
+</body>
+</html>
