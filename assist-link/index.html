@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assist Link – concept film</title>
+<meta name="description" content="Assist Link: three apps under one umbrella, built to fill the quiet weeks at every towing station. Internal concept film.">
+<meta property="og:title" content="Assist Link – Three apps. One umbrella.">
+<meta property="og:description" content="Assist Work, Assist Connect and Assist Dispatch – how planned transport jobs reach the stations. Internal concept film, October 2026.">
+<meta property="og:image" content="../assets/assist-link-poster.jpg">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#071A2D; --brand:#1F6FA5; --brand-dark:#104F78; --accent:#20C8EE; --soft:#F1F8FC; --muted:#5B6B7A; --green:#2e9e5b; --purple:#7c4fc4; --orange:#d9781e; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:"IBM Plex Sans",system-ui,sans-serif; background:var(--soft); color:var(--ink); }
+  header { max-width:1100px; margin:0 auto; padding:28px 20px; display:flex; align-items:center; justify-content:space-between; }
+  header img { height:36px; }
+  header span { color:var(--muted); font-size:14px; font-weight:600; letter-spacing:2px; text-transform:uppercase; }
+  main { max-width:1100px; margin:0 auto; padding:0 20px 64px; }
+  h1 { font-size:clamp(32px,5vw,56px); line-height:1.05; letter-spacing:-1px; margin:16px 0 12px; }
+  h1 span { color:var(--brand); }
+  .lead { font-size:clamp(17px,2vw,21px); color:var(--muted); max-width:760px; margin:0 0 32px; line-height:1.5; }
+  video { width:100%; border-radius:16px; box-shadow:0 30px 80px rgba(7,26,45,.18); background:#000; display:block; }
+  .apps { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; margin:40px 0 24px; padding:0; list-style:none; }
+  .apps li { background:#fff; border-radius:14px; padding:20px 22px; box-shadow:0 6px 20px rgba(7,26,45,.06); line-height:1.45; border-top:6px solid var(--c); }
+  .apps small { display:block; font-size:12px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--muted); margin-bottom:6px; }
+  .apps b { display:block; font-size:20px; margin-bottom:4px; color:var(--c); }
+  .note { background:#fff; border-left:4px solid var(--brand); border-radius:10px; padding:16px 20px; color:var(--muted); line-height:1.5; margin:24px 0; }
+  footer { text-align:center; color:var(--muted); font-size:14px; padding:24px 20px 40px; }
+</style>
+</head>
+<body>
+<header>
+  <img src="../assets/assist-logo.svg" alt="Assist">
+  <span>Internal · October 2026</span>
+</header>
+<main>
+  <h1>Assist Link. <span>Three apps. One umbrella.</span></h1>
+  <p class="lead">Every towing station has quiet weeks. Assist Link is how planned transport jobs reach them: one-off customers book in Assist Work, dispatch centers offer agreements in Assist Connect, and every job lands in Assist Dispatch, where it is accepted, done and invoiced.</p>
+
+  <video controls playsinline preload="metadata" poster="../assets/assist-link-poster.jpg">
+    <source src="../videos/assist-link.mp4" type="video/mp4">
+    Your browser does not support video. <a href="../videos/assist-link.mp4">Download the video</a>.
+  </video>
+
+  <ul class="apps">
+    <li style="--c:var(--green)"><small>For one-off customers · concept</small><b>Assist Work</b>Assist's own automatic dispatch center. Customers without a center of their own book a single job; they pick a station or Assist finds the nearest.</li>
+    <li style="--c:var(--purple)"><small>For dispatch centers · concept</small><b>Assist Connect</b>Logistics and rental companies create an agreement and offer it to the stations. The stations accept, and the jobs start flowing.</li>
+    <li style="--c:var(--orange)"><small>For the stations · today</small><b>Assist Dispatch</b>The app stations already use. Requests come in, the station accepts, and the driver gets it done. Other systems plug in through an API.</li>
+  </ul>
+
+  <div class="note">Internal concept film for employees, board and investors. Assist Work and Assist Connect are not built yet; calendars and volumes in the film are illustrations only. Project name: Sarepta.</div>
+</main>
+<footer>© Assist IT AS · Stavanger, Norway</footer>
+</body>
+</html>

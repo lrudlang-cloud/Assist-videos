@@ -17,6 +17,12 @@ Assist as a central dispatch hub: from the customer's QR scan to a completed and
 5. **Live on the road** – the driver accepts in the Assist app, and you follow the route live.
 6. **Done & invoiced** – status, documentation and payment in the same mission.
 
+## Assist Link – Three apps. One umbrella. (82 sec, internal)
+
+Concept film for employees, board and investors: Assist Work, Assist Connect and Assist Dispatch, and how planned transport jobs reach the stations. Work and Connect are not built yet.
+
+▶ **[Watch the video](https://lrudlang-cloud.github.io/Assist-videos/assist-link/)** · [Download MP4](videos/assist-link.mp4)
+
 ---
 
 Want to see Assist in action? **[Book a demo at assist-it.no](https://www.assist-it.no/en)**
