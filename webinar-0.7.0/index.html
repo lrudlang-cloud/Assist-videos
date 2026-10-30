@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="nb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assist 0.7.0 – webinar</title>
+<meta name="description" content="Opptak av release-webinaret for Assist 0.7.0: tjenestemaler, meldingsmaler, ny sjåførapp, avtaleprodukter og fakturering, dispatch.">
+<meta property="og:title" content="Assist 0.7.0 – webinar">
+<meta property="og:description" content="Stasjonen setter standarden, sjåføren følger den. Opptak av release-webinaret, oktober 2026.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#071A2D; --brand:#1F6FA5; --brand-dark:#104F78; --accent:#20C8EE; --soft:#F1F8FC; --muted:#5B6B7A; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:"IBM Plex Sans",system-ui,sans-serif; background:var(--soft); color:var(--ink); }
+  header { max-width:1100px; margin:0 auto; padding:28px 20px; display:flex; align-items:center; justify-content:space-between; }
+  header img { height:36px; }
+  header span { color:var(--muted); font-size:14px; font-weight:600; letter-spacing:2px; text-transform:uppercase; }
+  main { max-width:1100px; margin:0 auto; padding:0 20px 64px; }
+  h1 { font-size:clamp(32px,5vw,56px); line-height:1.05; letter-spacing:-1px; margin:16px 0 12px; }
+  h1 span { color:var(--brand); }
+  .lead { font-size:clamp(17px,2vw,21px); color:var(--muted); max-width:760px; margin:0 0 32px; line-height:1.5; }
+  video { width:100%; border-radius:16px; box-shadow:0 30px 80px rgba(7,26,45,.18); background:#000; display:block; }
+  .chapters { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; margin:40px 0 24px; padding:0; list-style:none; counter-reset: demo; }
+  .chapters li { background:#fff; border-radius:14px; padding:20px 22px; box-shadow:0 6px 20px rgba(7,26,45,.06); line-height:1.45; }
+  .chapters li::before { counter-increment: demo; content: counter(demo); display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:50%; background:var(--brand); color:#fff; font-weight:700; margin-bottom:10px; }
+  .chapters b { display:block; font-size:18px; margin-bottom:4px; }
+  .chapters small { color:var(--muted); }
+  .links { display:flex; gap:12px; flex-wrap:wrap; margin:24px 0; }
+  .links a { background:var(--brand); color:#fff; text-decoration:none; padding:12px 18px; border-radius:7px; font-weight:600; }
+  .links a.secondary { background:#fff; color:var(--brand-dark); border:1px solid #d7e8f4; }
+  .note { background:#fff; border-left:4px solid var(--brand); border-radius:10px; padding:16px 20px; color:var(--muted); line-height:1.5; margin:24px 0; }
+  footer { text-align:center; color:var(--muted); font-size:14px; padding:24px 20px 40px; }
+</style>
+</head>
+<body>
+<header>
+  <img src="../assets/assist-logo.svg" alt="Assist">
+  <span>Webinar · Oktober 2026</span>
+</header>
+<main>
+  <h1>Assist 0.7.0. <span>Stasjonen setter standarden.</span></h1>
+  <p class="lead">Opptak av release-webinaret. Vi starter på kontoret med tjenestemaler og meldingsmaler, følger ett oppdrag ut til sjåføren og kunden, og avslutter hos økonomi med en ferdig ordre.</p>
+
+  <video controls playsinline preload="metadata">
+    <source src="assist-webinar-0.7.0.mp4" type="video/mp4">
+    Nettleseren din støtter ikke video. <a href="assist-webinar-0.7.0.mp4">Last ned videoen</a>.
+  </video>
+
+  <div class="links">
+    <a href="Assist-0.7.0-Dette-faar-du-se.pptx">Last ned presentasjonen (PPTX)</a>
+    <a class="secondary" href="https://www.assist-it.no">assist-it.no</a>
+  </div>
+
+  <ul class="chapters">
+    <li><b>Tjenestemaler</b><small>Sjekkliste, produkter, guide og egenandel – per tjeneste og per avtale.</small></li>
+    <li><b>Meldingsmaler</b><small>SMS og e-post med flettefelt, språk som faner og AI-oversettelse.</small></li>
+    <li><b>Ny sjåførapp</b><small>Guidet flyt fra oppdraget kommer inn til det er Kvittert.</small></li>
+    <li><b>Avtaleprodukter og fakturering</b><small>Avtalepriser, antallsforslag og én ordre per part.</small></li>
+    <li><b>Dispatch og kontoroversikt</b><small>Neste steg på alle oppdrag, tildeling i ett trykk.</small></li>
+    <li><b>Andre nyheter</b><small>Globalt søk, vedlegg på bestillingsskjema, separate rabatter m.m.</small></li>
+  </ul>
+
+  <div class="note">Assist Central og Call Assist dekkes i eget webinar. Spørsmål? Ta kontakt via <a href="https://www.assist-it.no/contact-us">assist-it.no/contact-us</a>.</div>
+</main>
+<footer>© Assist IT AS · Stavanger, Norway</footer>
+</body>
+</html>
