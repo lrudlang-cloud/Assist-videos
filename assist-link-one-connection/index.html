@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assist Link – One connection. All of Norway.</title>
+<meta name="description" content="Assist Link explained: three apps under one umbrella, why Swipload is the first step, and how Assist Link earns from both sides. Internal concept film.">
+<meta property="og:title" content="Assist Link – One connection. All of Norway.">
+<meta property="og:description" content="Why Swipload is the first step – and how Assist Link earns from both sides. Internal concept film, November 2026.">
+<meta property="og:image" content="../assets/assist-link-one-connection-poster.jpg">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#071A2D; --brand:#1F6FA5; --brand-dark:#104F78; --accent:#20C8EE; --soft:#F1F8FC; --muted:#5B6B7A; --green:#2e9e5b; --purple:#7c4fc4; --orange:#d9781e; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:"IBM Plex Sans",system-ui,sans-serif; background:var(--soft); color:var(--ink); }
+  header { max-width:1100px; margin:0 auto; padding:28px 20px; display:flex; align-items:center; justify-content:space-between; }
+  header img { height:36px; }
+  header span { color:var(--muted); font-size:14px; font-weight:600; letter-spacing:2px; text-transform:uppercase; }
+  main { max-width:1100px; margin:0 auto; padding:0 20px 64px; }
+  h1 { font-size:clamp(32px,5vw,56px); line-height:1.05; letter-spacing:-1px; margin:16px 0 12px; }
+  h1 span { color:var(--brand); }
+  .lead { font-size:clamp(17px,2vw,21px); color:var(--muted); max-width:760px; margin:0 0 24px; line-height:1.5; }
+  .lang { display:flex; gap:8px; margin:0 0 16px; }
+  .lang button { font:inherit; font-weight:600; font-size:15px; padding:8px 16px; border-radius:7px; border:2px solid var(--brand); background:#fff; color:var(--brand); cursor:pointer; }
+  .lang button[aria-pressed="true"] { background:var(--brand); color:#fff; }
+  video { width:100%; border-radius:16px; box-shadow:0 30px 80px rgba(7,26,45,.18); background:#000; display:block; }
+  .dl { margin:14px 0 0; font-size:15px; color:var(--muted); }
+  .dl a { color:var(--brand); font-weight:600; }
+  .apps { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; margin:40px 0 24px; padding:0; list-style:none; }
+  .apps li { background:#fff; border-radius:14px; padding:20px 22px; box-shadow:0 6px 20px rgba(7,26,45,.06); line-height:1.45; border-top:6px solid var(--c); }
+  .apps small { display:block; font-size:12px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--muted); margin-bottom:6px; }
+  .apps b { display:block; font-size:20px; margin-bottom:4px; color:var(--c); }
+  .note { background:#fff; border-left:4px solid var(--brand); border-radius:10px; padding:16px 20px; color:var(--muted); line-height:1.5; margin:24px 0; }
+  footer { text-align:center; color:var(--muted); font-size:14px; padding:24px 20px 40px; }
+</style>
+</head>
+<body>
+<header>
+  <img src="../assets/assist-logo.svg" alt="Assist">
+  <span>Internal · November 2026</span>
+</header>
+<main>
+  <h1>Assist Link. <span>One connection. All of Norway.</span></h1>
+  <p class="lead">Stations have trucks and people – the jobs just don't come. Assist Link connects those who have jobs with the stations that can do them. The film explains the three apps, why Swipload is the first step, and how Assist earns from both sides.</p>
+
+  <div class="lang" role="group" aria-label="Language">
+    <button type="button" data-lang="en" aria-pressed="true">English</button>
+    <button type="button" data-lang="no" aria-pressed="false">Norsk</button>
+  </div>
+
+  <video id="film" controls playsinline preload="metadata" poster="../assets/assist-link-one-connection-poster.jpg">
+    <source src="../videos/assist-link-one-connection.mp4" type="video/mp4">
+    <track kind="subtitles" src="../videos/assist-link-one-connection-en.vtt" srclang="en" label="English">
+    Your browser does not support video. <a href="../videos/assist-link-one-connection.mp4">Download the video</a>.
+  </video>
+  <p class="dl">Download: <a href="../videos/assist-link-one-connection.mp4">English (3:52)</a> · <a href="../videos/assist-link-one-connection-no.mp4">Norsk (2:41)</a></p>
+
+  <ul class="apps">
+    <li style="--c:var(--orange)"><small>For the stations · today</small><b>Assist Dispatch</b>The app stations already use. Jobs are received, carried out and invoiced here, and shared with friend stations.</li>
+    <li style="--c:var(--brand)"><small>Step 1 · now</small><b>Swipload → Dispatch</b>A generic API sends Swipload orders straight into the station's Dispatch, with status and POD back. One app for the driver.</li>
+    <li style="--c:var(--purple)"><small>Step 2 · next release</small><b>Swipload in Connect</b>Swipload becomes a dispatch centre in Assist Connect and sends jobs to more stations. This is where the volume comes.</li>
+    <li style="--c:var(--green)"><small>Revenue · both sides</small><b>How Assist earns</b>2% integration fee from the station, Connect subscription from customers, 4–6% brokerage when Assist brings the customer, and new Dispatch licences.</li>
+  </ul>
+
+  <div class="note">Internal concept film for employees and board. Assist Work and Assist Connect are not built yet. All rates are examples, not agreed prices; survey figures refer to the stations that responded.</div>
+</main>
+<footer>© Assist IT AS · Stavanger, Norway</footer>
+<script>
+  const SRC = {
+    en: { mp4: "../videos/assist-link-one-connection.mp4", vtt: "../videos/assist-link-one-connection-en.vtt", label: "English" },
+    no: { mp4: "../videos/assist-link-one-connection-no.mp4", vtt: "../videos/assist-link-one-connection-no.vtt", label: "Norsk" }
+  };
+  const v = document.getElementById("film");
+  document.querySelectorAll(".lang button").forEach(b => b.addEventListener("click", () => {
+    const s = SRC[b.dataset.lang];
+    document.querySelectorAll(".lang button").forEach(x => x.setAttribute("aria-pressed", x === b));
+    v.pause();
+    v.querySelector("source").src = s.mp4;
+    const t = v.querySelector("track");
+    t.src = s.vtt; t.srclang = b.dataset.lang; t.label = s.label;
+    v.load();
+  }));
+</script>
+</body>
+</html>
