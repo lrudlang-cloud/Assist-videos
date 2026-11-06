@@ -23,6 +23,10 @@ Concept film for employees, board and investors: Assist Work, Assist Connect and
 
 ▶ **[Watch the video](https://lrudlang-cloud.github.io/Assist-videos/assist-link/)** · [Download MP4](videos/assist-link.mp4)
 
+Assist Link – One connection. All of Norway. (3 min 52 sec, internal)
+Concept film for employees and board: the three apps in Assist Link, why Swipload is the first step, and how Assist earns from both sides. English and Norwegian versions, with subtitles.
+![Watch the video](assets/assist-link-one-connection-poster.jpg)
+▶ Watch the video · Download MP4 (English) · Last ned MP4 (norsk)
 ---
 
 Want to see Assist in action? **[Book a demo at assist-it.no](https://www.assist-it.no/en)**
