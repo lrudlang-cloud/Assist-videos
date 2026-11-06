@@ -1,0 +1,187 @@
+1
+00:00:00,700 --> 00:00:06,360
+Over hele Norge står bergingsstasjoner med tunge kjøretøy, kraner, sikrede tomter og folk på vakt, døgnet rundt.
+
+2
+00:00:06,860 --> 00:00:08,335
+Det er travelt når det er berging.
+
+3
+00:00:08,335 --> 00:00:09,420
+Og stille resten av året.
+
+4
+00:00:11,133 --> 00:00:15,533
+95 % av de spurte stasjonene har ledig kapasitet, mest vår og høst.
+
+5
+00:00:16,033 --> 00:00:17,012
+De har bil og folk.
+
+6
+00:00:17,012 --> 00:00:18,453
+Oppdragene kommer bare ikke.
+
+7
+00:00:18,953 --> 00:00:21,553
+Og for en stor oppdragsgiver er én stasjon for liten.
+
+8
+00:00:22,053 --> 00:00:23,917
+Samlet dekker stasjonene hele Norge.
+
+9
+00:00:23,917 --> 00:00:25,263
+Det kan ingen andre tilby.
+
+10
+00:00:26,967 --> 00:00:30,257
+Assist Link kobler de som har oppdrag, med stasjonene som kan utføre dem.
+
+11
+00:00:30,757 --> 00:00:38,527
+I Assist Connect lager oppdragsgivere med egen sentral, som forsikring, assistanseselskaper eller et busselskap, en avtale, og tilbyr den til stasjonene.
+
+12
+00:00:39,027 --> 00:00:43,047
+Stasjonene godtar og blir med, og oppdragene sendes ut til mange stasjoner samtidig.
+
+13
+00:00:43,547 --> 00:00:45,558
+I Assist Work er Assist selv sentralen.
+
+14
+00:00:45,558 --> 00:00:47,776
+Engangskunder bestiller ett og ett oppdrag.
+
+15
+00:00:47,776 --> 00:00:52,367
+Og det er sjelden berging, men spesialtransport av maskiner, busser, båter og containere.
+
+16
+00:00:52,867 --> 00:00:56,049
+Alt lander i Assist Dispatch, appen stasjonene bruker i dag.
+
+17
+00:00:56,049 --> 00:01:01,247
+Der tas oppdraget imot, utføres og faktureres, og der deler stasjonene oppdrag med vennestasjoner.
+
+18
+00:01:02,933 --> 00:01:06,623
+Assist er ikke transportøren, og ikke mellommannen som kjøper og selger oppdrag.
+
+19
+00:01:07,123 --> 00:01:10,275
+Vi eier koblingen og reglene, og tar betalt fra begge sider.
+
+20
+00:01:10,275 --> 00:01:12,323
+Men vi er aldri part i selve oppdraget.
+
+21
+00:01:12,823 --> 00:01:15,973
+Stasjonen fakturerer kunden selv, og beholder kunderelasjonen.
+
+22
+00:01:17,667 --> 00:01:20,374
+Byggebransjen bestiller transport gjennom Swipload.
+
+23
+00:01:20,374 --> 00:01:20,693
+Fra 1.
+
+24
+00:01:20,693 --> 00:01:24,886
+januar 2027 skal en av de største utleierne i Norge bestille all transport der.
+
+25
+00:01:24,886 --> 00:01:26,957
+Og sjåførene vil ikke jobbe i to apper.
+
+26
+00:01:27,457 --> 00:01:31,897
+Steg 1 er derfor en direkte kobling inn i stasjonens Dispatch, med status tilbake til Swipload.
+
+27
+00:01:32,397 --> 00:01:34,061
+Det gir ingen nye oppdrag ennå.
+
+28
+00:01:34,061 --> 00:01:37,389
+Men vi beholder oppdragene i Assist, og koblingen er generisk.
+
+29
+00:01:37,389 --> 00:01:39,697
+Swipload er første bruker, flere kan følge.
+
+30
+00:01:40,197 --> 00:01:41,576
+Steg 2 er der volumet kommer.
+
+31
+00:01:41,576 --> 00:01:47,807
+Swipload blir en sentral i Connect, og sender oppdrag ut til flere stasjoner, også stasjoner som aldri har kjørt for byggebransjen.
+
+32
+00:01:48,307 --> 00:01:51,236
+I dag kjører bare 3 av 60 stasjoner for disse kundene.
+
+33
+00:01:51,236 --> 00:01:53,027
+Og 100 % av de spurte ønsker det.
+
+34
+00:01:54,733 --> 00:01:58,923
+I dag tjener Assist på lisens, oppstartspakker, integrasjoner og opplæring.
+
+35
+00:01:59,423 --> 00:02:01,937
+Med Assist Link kommer nye inntekter fra begge sider.
+
+36
+00:02:01,937 --> 00:02:06,773
+Stasjonen betaler en integrasjonsavgift per oppdrag, og oppdragsgiverne betaler abonnement på Connect.
+
+37
+00:02:07,273 --> 00:02:10,528
+Når Assist selv har skaffet kunden, kommer det en formidlingsavgift.
+
+38
+00:02:10,528 --> 00:02:14,453
+Og nye spesialtransportører kjøper lisens på Dispatch, fordi de vil ha oppdragene.
+
+39
+00:02:14,953 --> 00:02:18,978
+Et oppdrag på 3 000 kroner via Swipload gir Assist rundt 60 kroner.
+
+40
+00:02:18,978 --> 00:02:23,363
+Det samme oppdraget fra en direktekunde gir 210 kroner, pluss abonnement.
+
+41
+00:02:23,863 --> 00:02:25,538
+Swipload gir volum og bevis.
+
+42
+00:02:25,538 --> 00:02:27,213
+Direktekundene gir marginen.
+
+43
+00:02:28,900 --> 00:02:32,190
+Assist Link gjør stasjonsfellesskapet til én landsdekkende leverandør.
+
+44
+00:02:32,690 --> 00:02:34,970
+Oppdragsgiveren får hele landet gjennom én flate.
+
+45
+00:02:34,970 --> 00:02:37,250
+Stasjonene får oppdrag når de ellers står stille.
+
+46
+00:02:37,750 --> 00:02:38,997
+Det starter med én kobling.
+
+47
+00:02:38,997 --> 00:02:39,920
+Og den bygger vi nå.
