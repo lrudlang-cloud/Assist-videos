@@ -17,6 +17,21 @@ Assist as a central dispatch hub: from the customer's QR scan to a completed and
 5. **Live on the road** – the driver accepts in the Assist app, and you follow the route live.
 6. **Done & invoiced** – status, documentation and payment in the same mission.
 
+## Kjenner du Assist? (85 sec, Norwegian)
+
+Assist for towing stations that are not customers yet: one job from the moment it comes in until it is done, and what we are building now. Norwegian voice, text and UI.
+
+[![Se filmen](assets/kjenner-du-assist-poster.jpg)](https://lrudlang-cloud.github.io/Assist-videos/kjenner-du-assist/)
+
+▶ **[Se filmen](https://lrudlang-cloud.github.io/Assist-videos/kjenner-du-assist/)** · [Last ned MP4](videos/kjenner-du-assist.mp4)
+
+1. **Bestillingsskjema** – regular customers book themselves from the station's own website.
+2. **Oppdragstolken** – an AI agent reads the message from the dispatch centre and creates the job in seconds.
+3. **Tjenestemaler** – pick the type of job, and the work description and checklist follow.
+4. **Sjåførflyt** – the driver gets the job on the phone; one big button always shows the next step.
+5. **Sjekkliste på jobben** – photos, SMS to the customer and deductible. Nothing is forgotten.
+6. **Assist Link (being built now)** – stations, dispatch centres and other customers work together, and accepted jobs land in Assist Dispatch.
+
 ## Assist Link – Three apps. One umbrella. (82 sec, internal)
 
 Concept film for employees, board and investors: Assist Work, Assist Connect and Assist Dispatch, and how planned transport jobs reach the stations. Work and Connect are not built yet.
