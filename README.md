@@ -30,7 +30,23 @@ Assist for towing stations that are not customers yet: one job from the moment i
 3. **Tjenestemaler** – pick the type of job, and the work description and checklist follow.
 4. **Sjåførflyt** – the driver gets the job on the phone; one big button always shows the next step.
 5. **Sjekkliste på jobben** – photos, SMS to the customer and deductible. Nothing is forgotten.
-6. **Assist Link (being built now)** – stations, dispatch centres and other customers work together, and accepted jobs land in Assist Dispatch.
+6. **Assist Link (being built now)** – stations, dispatch centres and other customers work together, also across the border between Norway and Sweden, and accepted jobs land in Assist Dispatch.
+
+## Känner du Assist? (100 sec, Swedish)
+
+Swedish version of «Kjenner du Assist?», with Swedish voice and text. The Assist screens are shown in Norwegian.
+
+[![Se filmen](assets/kanner-du-assist-poster.jpg)](https://lrudlang-cloud.github.io/Assist-videos/kanner-du-assist/)
+
+▶ **[Se filmen](https://lrudlang-cloud.github.io/Assist-videos/kanner-du-assist/)** · [Ladda ner MP4](videos/kanner-du-assist-sv.mp4)
+
+## Do you know Assist? (76 sec, English)
+
+English version of «Kjenner du Assist?», with English voice and text. The Assist screens are shown in Norwegian.
+
+[![Watch the video](assets/do-you-know-assist-poster.jpg)](https://lrudlang-cloud.github.io/Assist-videos/do-you-know-assist/)
+
+▶ **[Watch the video](https://lrudlang-cloud.github.io/Assist-videos/do-you-know-assist/)** · [Download MP4](videos/do-you-know-assist-en.mp4)
 
 ## Assist Link – Three apps. One umbrella. (82 sec, internal)
 

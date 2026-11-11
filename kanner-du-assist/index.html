@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Känner du Assist?</title>
+<meta name="description" content="Assist för bärgningsstationer på 100 sekunder: beställningsformulär, Uppdragstolken, tjänstemallar, förarflöde, checklista och Assist Link.">
+<meta property="og:title" content="Känner du Assist?">
+<meta property="og:description" content="Byggt för bärgningsstationer – från att telefonen ringer till att fakturan är skickad.">
+<meta property="og:image" content="../assets/kanner-du-assist-poster.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#071A2D; --brand:#1F6FA5; --brand-dark:#104F78; --accent:#20C8EE; --soft:#F1F8FC; --muted:#5B6B7A; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:"IBM Plex Sans",system-ui,sans-serif; background:var(--soft); color:var(--ink); }
+  header { max-width:1100px; margin:0 auto; padding:28px 20px; display:flex; align-items:center; justify-content:space-between; }
+  header img { height:36px; }
+  header a { color:var(--brand); font-weight:600; text-decoration:none; }
+  main { max-width:1100px; margin:0 auto; padding:0 20px 64px; }
+  h1 { font-size:clamp(32px,5vw,56px); line-height:1.05; letter-spacing:-1px; margin:16px 0 12px; }
+  h1 span { color:var(--brand); }
+  .lead { font-size:clamp(17px,2vw,21px); color:var(--muted); max-width:720px; margin:0 0 32px; line-height:1.5; }
+  video { width:100%; border-radius:16px; box-shadow:0 30px 80px rgba(7,26,45,.18); background:#000; display:block; }
+  .steps { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; margin:40px 0; padding:0; list-style:none; }
+  .steps li { background:#fff; border-radius:14px; padding:20px 22px; box-shadow:0 6px 20px rgba(7,26,45,.06); line-height:1.45; }
+  .steps small { display:block; font-size:13px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--brand); margin-bottom:6px; }
+  .steps b { display:block; font-size:18px; margin-bottom:4px; }
+  .cta { display:inline-block; background:var(--brand); color:#fff; text-decoration:none; font-weight:600; font-size:18px; padding:16px 28px; border-radius:7px; }
+  .cta:hover { background:var(--brand-dark); }
+  footer { text-align:center; color:var(--muted); font-size:14px; padding:24px 20px 40px; }
+</style>
+</head>
+<body>
+<header>
+  <img src="../assets/assist-logo.svg" alt="Assist">
+  <a href="https://www.assist-it.no">assist-it.no →</a>
+</header>
+<main>
+  <h1>Känner du <span>Assist?</span></h1>
+  <p class="lead">Byggt för bärgningsstationer – från att telefonen ringer till att fakturan är skickad. Filmen visar på 100 sekunder hur ett uppdrag kommer in, sätts upp och utförs, och vad vi bygger nu. Skärmbilderna från Assist visas på norska.</p>
+
+  <video controls playsinline preload="metadata" poster="../assets/kanner-du-assist-poster.jpg">
+    <source src="../videos/kanner-du-assist-sv.mp4" type="video/mp4">
+    Din webbläsare stöder inte video. <a href="../videos/kanner-du-assist-sv.mp4">Ladda ner filmen</a>.
+  </video>
+
+  <ul class="steps">
+    <li><small>Uppdraget kommer in</small><b>Beställningsformulär</b>Fasta kunder beställer själva från din egen webbplats. Beställningen landar direkt i Assist.</li>
+    <li><small>Uppdraget kommer in</small><b>Uppdragstolken</b>En AI-agent läser meddelandet från larmcentralen, hämtar bilen från fordonsregistret och skapar uppdraget på några sekunder.</li>
+    <li><small>Uppdraget sätts upp</small><b>Tjänstemallar</b>Välj typ av jobb, så följer arbetsbeskrivning och checklista med. Sex färdiga mallar som du anpassar själv.</li>
+    <li><small>Uppdraget utförs</small><b>Förarflöde</b>Föraren får jobbet i mobilen. En stor knapp visar alltid nästa steg.</li>
+    <li><small>Uppdraget utförs</small><b>Checklista på jobbet</b>Bilder, sms till kunden och självrisk. Inget glöms bort.</li>
+    <li><small>Byggs nu</small><b>Assist Link</b>Samarbete mellan stationer, larmcentraler och uppdragsgivare, även över landsgränsen. Uppdrag som du annars inte hade fått, direkt in i Assist Dispatch.</li>
+  </ul>
+
+  <a class="cta" href="https://www.assist-it.no">Se mer på assist-it.no</a>
+</main>
+<footer>© Assist IT AS · Stavanger, Norge</footer>
+</body>
+</html>

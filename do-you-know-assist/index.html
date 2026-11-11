@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Do you know Assist?</title>
+<meta name="description" content="Assist for towing stations in 76 seconds: booking form, job interpreter, service templates, driver flow, checklist and Assist Link.">
+<meta property="og:title" content="Do you know Assist?">
+<meta property="og:description" content="Built for towing stations – from the moment the phone rings until the invoice is sent.">
+<meta property="og:image" content="../assets/do-you-know-assist-poster.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#071A2D; --brand:#1F6FA5; --brand-dark:#104F78; --accent:#20C8EE; --soft:#F1F8FC; --muted:#5B6B7A; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family:"IBM Plex Sans",system-ui,sans-serif; background:var(--soft); color:var(--ink); }
+  header { max-width:1100px; margin:0 auto; padding:28px 20px; display:flex; align-items:center; justify-content:space-between; }
+  header img { height:36px; }
+  header a { color:var(--brand); font-weight:600; text-decoration:none; }
+  main { max-width:1100px; margin:0 auto; padding:0 20px 64px; }
+  h1 { font-size:clamp(32px,5vw,56px); line-height:1.05; letter-spacing:-1px; margin:16px 0 12px; }
+  h1 span { color:var(--brand); }
+  .lead { font-size:clamp(17px,2vw,21px); color:var(--muted); max-width:720px; margin:0 0 32px; line-height:1.5; }
+  video { width:100%; border-radius:16px; box-shadow:0 30px 80px rgba(7,26,45,.18); background:#000; display:block; }
+  .steps { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:16px; margin:40px 0; padding:0; list-style:none; }
+  .steps li { background:#fff; border-radius:14px; padding:20px 22px; box-shadow:0 6px 20px rgba(7,26,45,.06); line-height:1.45; }
+  .steps small { display:block; font-size:13px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--brand); margin-bottom:6px; }
+  .steps b { display:block; font-size:18px; margin-bottom:4px; }
+  .cta { display:inline-block; background:var(--brand); color:#fff; text-decoration:none; font-weight:600; font-size:18px; padding:16px 28px; border-radius:7px; }
+  .cta:hover { background:var(--brand-dark); }
+  footer { text-align:center; color:var(--muted); font-size:14px; padding:24px 20px 40px; }
+</style>
+</head>
+<body>
+<header>
+  <img src="../assets/assist-logo.svg" alt="Assist">
+  <a href="https://www.assist-it.no/en">assist-it.no →</a>
+</header>
+<main>
+  <h1>Do you know <span>Assist?</span></h1>
+  <p class="lead">Built for towing stations – from the moment the phone rings until the invoice is sent. In 76 seconds the film shows how a job comes in, is set up and carried out, and what we are building now. The Assist screens are shown in Norwegian.</p>
+
+  <video controls playsinline preload="metadata" poster="../assets/do-you-know-assist-poster.jpg">
+    <source src="../videos/do-you-know-assist-en.mp4" type="video/mp4">
+    Your browser does not support video. <a href="../videos/do-you-know-assist-en.mp4">Download the video</a>.
+  </video>
+
+  <ul class="steps">
+    <li><small>The job comes in</small><b>Booking form</b>Regular customers book themselves from your own website. The booking lands straight in Assist.</li>
+    <li><small>The job comes in</small><b>Job interpreter</b>An AI agent reads the message from the dispatch center, looks up the vehicle in the vehicle register and creates the job in seconds.</li>
+    <li><small>The job is set up</small><b>Service templates</b>Pick the type of job, and the work description and checklist come with it. Six ready-made templates that you adapt yourself.</li>
+    <li><small>The job is carried out</small><b>Driver flow</b>The driver gets the job on the phone. One big button always shows the next step.</li>
+    <li><small>The job is carried out</small><b>Checklist on the job</b>Photos, a text to the customer and the deductible. Nothing is forgotten.</li>
+    <li><small>Being built now</small><b>Assist Link</b>Stations, dispatch centers and other clients working together, also across the border. Jobs you would not otherwise have had, straight into Assist Dispatch.</li>
+  </ul>
+
+  <a class="cta" href="https://www.assist-it.no/en">See more at assist-it.no</a>
+</main>
+<footer>© Assist IT AS · Stavanger, Norway</footer>
+</body>
+</html>
